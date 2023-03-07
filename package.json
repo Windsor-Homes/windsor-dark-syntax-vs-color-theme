@@ -1,21 +1,25 @@
 {
-  "name": "windsor-dark-syntax",
-  "displayName": "Windsor Dark Syntax",
-  "description": "Based on an Atom Theme called \"syntec-syntax\" which itself was based on \"Spacegray\" for phpStorm & Sublime Text.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.76.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Windsor Dark Syntax",
-        "uiTheme": "vs-dark",
-        "path": "./themes/windsor-dark-syntax-color-theme.json"
-      }
-    ]
-  }
+    "name": "windsor-dark-syntax",
+    "displayName": "Windsor Dark Syntax",
+    "description": "Based on an Atom Theme called \"syntec-syntax\" which itself was based on \"Spacegray\" for phpStorm & Sublime Text.",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Windsor-Homes/windsor-dark-syntax-vs-color-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.76.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Windsor Dark Syntax",
+                "uiTheme": "vs-dark",
+                "path": "./themes/windsor-dark-syntax-color-theme.json"
+            }
+        ]
+    }
 }
